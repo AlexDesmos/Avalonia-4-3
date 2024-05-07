@@ -132,3 +132,4 @@ C:\Users\mboro\source\repos\4-3\Avalonia-4-3\4-3\obj\Debug\net5.0\4-3.dll
 C:\Users\mboro\source\repos\4-3\Avalonia-4-3\4-3\obj\Debug\net5.0\4-3.pdb
 C:\Users\mboro\source\repos\4-3\Avalonia-4-3\4-3\obj\Debug\net5.0\4-3.csproj.CopyComplete
 C:\Users\mboro\source\repos\4-3\Avalonia-4-3\4-3\obj\Debug\net5.0\4-3.genruntimeconfig.cache
+C:\Users\mboro\source\repos\4-3\Avalonia-4-3\4-3\bin\Debug\net5.0\AsyncImageLoader.Avalonia.dll

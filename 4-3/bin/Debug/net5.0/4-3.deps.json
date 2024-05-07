@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "4-3/1.0.0": {
         "dependencies": {
+          "AsyncImageLoader.Avalonia": "3.2.1",
           "Avalonia": "11.0.10",
           "Avalonia.Desktop": "11.0.10",
           "Avalonia.Diagnostics": "11.0.10",
@@ -17,6 +18,17 @@
         },
         "runtime": {
           "4-3.dll": {}
+        }
+      },
+      "AsyncImageLoader.Avalonia/3.2.1": {
+        "dependencies": {
+          "Avalonia": "11.0.10"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncImageLoader.Avalonia.dll": {
+            "assemblyVersion": "3.2.1.0",
+            "fileVersion": "3.2.1.0"
+          }
         }
       },
       "Avalonia/11.0.10": {
@@ -977,6 +989,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AsyncImageLoader.Avalonia/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5q7mbGZ2s3gqQPYmzGQ4YjT/+CWAP1xHxWxuSSqbwdTVAZk86HYCHvrTCR6TxeXvkWafvTMuwJamooeEfeQQw==",
+      "path": "asyncimageloader.avalonia/3.2.1",
+      "hashPath": "asyncimageloader.avalonia.3.2.1.nupkg.sha512"
     },
     "Avalonia/11.0.10": {
       "type": "package",
