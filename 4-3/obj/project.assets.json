@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "AsyncImageLoader.Avalonia/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AsyncImageLoader.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncImageLoader.Avalonia.dll": {}
+        }
+      },
       "Avalonia/11.0.10": {
         "type": "package",
         "dependencies": {
@@ -1278,6 +1290,20 @@
     }
   },
   "libraries": {
+    "AsyncImageLoader.Avalonia/3.2.1": {
+      "sha512": "m5q7mbGZ2s3gqQPYmzGQ4YjT/+CWAP1xHxWxuSSqbwdTVAZk86HYCHvrTCR6TxeXvkWafvTMuwJamooeEfeQQw==",
+      "type": "package",
+      "path": "asyncimageloader.avalonia/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "asyncimageloader.avalonia.3.2.1.nupkg.sha512",
+        "asyncimageloader.avalonia.nuspec",
+        "lib/netstandard2.0/AsyncImageLoader.Avalonia.dll",
+        "lib/netstandard2.1/AsyncImageLoader.Avalonia.dll"
+      ]
+    },
     "Avalonia/11.0.10": {
       "sha512": "EH1FyD1SA7G/TfLmb7JKQlZiOBqr6VzttJMtA5Hnc/c1623zJej0PRuQlqn8Ad6qWKorrKEypBGA9Gye3uWDrA==",
       "type": "package",
@@ -4735,6 +4761,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AsyncImageLoader.Avalonia >= 3.2.1",
       "Avalonia >= 11.0.10",
       "Avalonia.Desktop >= 11.0.10",
       "Avalonia.Diagnostics >= 11.0.10",
@@ -4787,6 +4814,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "AsyncImageLoader.Avalonia": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
           "Avalonia": {
             "target": "Package",
             "version": "[11.0.10, )"

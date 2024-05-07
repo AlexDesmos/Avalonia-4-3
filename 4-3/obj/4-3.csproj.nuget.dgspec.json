@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AsyncImageLoader.Avalonia": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Avalonia": {
               "target": "Package",
               "version": "[11.0.10, )"

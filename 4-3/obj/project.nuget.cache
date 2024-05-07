@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8XvT7u9Txt9qemdJhFWL2GmSjtj1dXQS1UULO1QA5mn3k3gdXhHpExDDkRxpQ1f1S4i+1orUgb1doOUOdM73fQ==",
+  "dgSpecHash": "2y/Ax3X1x1gYGNAmJrKWGM+/jITFz1opBxixLWK+UE22KOtpfT73r8hLR/jyLu743t9xFBbBYrDFjhkd5oAnhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mboro\\source\\repos\\4-3\\Avalonia-4-3\\4-3\\4-3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mboro\\.nuget\\packages\\asyncimageloader.avalonia\\3.2.1\\asyncimageloader.avalonia.3.2.1.nupkg.sha512",
     "C:\\Users\\mboro\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
     "C:\\Users\\mboro\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
     "C:\\Users\\mboro\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
